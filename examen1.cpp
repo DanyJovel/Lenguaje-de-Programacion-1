@@ -124,7 +124,7 @@ int main(int argc, char* argv[]) {
 	cout << productosComprados << endl;
 	cout << "-------------------------" << endl;
 	cout << "Subtotal.......: L " << subtotal / 1.15 << endl;
-	cout << "Impuesto.......: L " << subtotal - (subtotal / 1.15) << endl;
+	//cout << "Impuesto.......: L " << subtotal - (subtotal / 1.15) << endl;
 	cout << "Total a pagar..: L " << subtotal << endl;
 	
 	return 0;
